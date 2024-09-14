@@ -6,12 +6,13 @@ import { getStorage } from "firebase/storage";
 import { apiKey } from "../../keys";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDxlsz8CL5eNCbO8ooxhBSlWm4aZ1Mn_Hw",
-    authDomain: "blogin-dea0e.firebaseapp.com",
-    projectId: "blogin-dea0e",
-    storageBucket: "blogin-dea0e.appspot.com",
-    messagingSenderId: "942173812595",
-    appId: "1:942173812595:web:0e6d3ba75c4980fea4f706"
+    apiKey: apiKey,
+    authDomain: "recipeshare-c5ede.firebaseapp.com",
+  databaseURL: "https://recipeshare-c5ede-default-rtdb.firebaseio.com",
+  projectId: "recipeshare-c5ede",
+  storageBucket: "recipeshare-c5ede.appspot.com",
+  messagingSenderId: "495998842291",
+  appId: "1:495998842291:web:a949523d72e75cae8947c6"
   };
 
 // Initialize Firebase
