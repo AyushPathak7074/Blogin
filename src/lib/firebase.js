@@ -3,10 +3,9 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
-import { apiKey } from "../../keys";
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: apiKey,
+    apiKey: "AIzaSyCK0NDoUS6dqTGBwXXETaplgaTd41tFzls",
     authDomain: "recipeshare-c5ede.firebaseapp.com",
   databaseURL: "https://recipeshare-c5ede-default-rtdb.firebaseio.com",
   projectId: "recipeshare-c5ede",
